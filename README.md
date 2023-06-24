@@ -11,7 +11,6 @@ Paper List of Recommender Systems with Large Language Models by Cityu AML Lab
 |                       [Awesome-LLM4RS-Papers](https://github.com/nancheng58/Awesome-LLM4RS-Papers)                       | [nancheng58](https://github.com/nancheng58) |
 |                               [Awesome-recsys](https://github.com/creyesp/Awesome-recsys)                                |    [creyesp](https://github.com/creyesp)    |
 |                   [Awesome-Generative-RecSys](https://github.com/jihoo-kim/Awesome-Generative-RecSys)                    |  [jihoo-kim](https://github.com/jihoo-kim)  |
-|                                                                                                                          |                                             |
 
 
 ## Tasks
@@ -72,11 +71,11 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 在将LLM应用到推荐系统中的时候，LLM的作用也有不同的可能性/位置/角色。目前根据LLM的作用，可以将LLM for Rec中LLM的作用分类为：
 
-- Embedding ^50520b
+- Embedding
 	- 用LLM做特征提取，再使用推荐系统进行推荐
-- Token generation ^baac63
+- Token generation
 	- 用LLM提取文本的重点信息，但仍然输出文本，最后使用推荐系统利用这些文本进行推荐
-- Recommendation ^2b9b61
+- Recommendation
 	- 直接让LLM给出推荐结果
 
 
@@ -87,15 +86,15 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 核心要决定的是，是否让LLM进行推荐。目前的趋势来看，还是让LLM直接做推荐符合潮流，并且这样也免去了还要单独提供一个推荐系统的麻烦。
 
-![[Pasted image 20230613222453.png|500]]
+![](Resources/Pasted%20image%2020230613222453.png)
 
 #### Discriminative LLM4Rec
 
-以BERT为首的、用编码器的LLM，主要用于Embedding特征提取，输出的结果再传递给下游模型。这类模型主要用于解决[[LLM4Rec#^50520b|Embedding]]问题，也就是不直接做推荐。
+以BERT为首的、用编码器的LLM，主要用于Embedding特征提取，输出的结果再传递给下游模型。这类模型主要用于解决**Embedding**问题，也就是不直接做推荐。
 
 #### Generative LLM4Rec
 
-以GPT为首的，用解码器的LLM。这类模型主要用于解决[[LLM4Rec#^baac63|Token generation]]和[[LLM4Rec#^2b9b61|Recommendation]]问题，也就是GPT可以特征总结，也可以直接做推荐。
+以GPT为首的，用解码器的LLM。这类模型主要用于解决**Token generation**和**Recommendation**问题，也就是GPT可以特征总结，也可以直接做推荐。
 
 
 
@@ -104,7 +103,6 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 
 ### Surveys
-^4028ad
 
 | Paper                                                                                                                                                              | Publication | Year        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ----------- |
@@ -123,7 +121,7 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name    | Paper                                                                                          | Publication    | Repository                                      | Link                                                 |
 | ------- | ---------------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| GenRead | [[#GenRead Generate rather than Retrieve Large Language Models are Strong Context Generators]] | ICLR 2023      | [GenRead](https://github.com/wyu97/GenRead)     | [arXiv:2209.10063](https://arxiv.org/abs/2209.10063) |
+| GenRead | [Generate rather than Retrieve Large Language Models are Strong Context Generators](#Generate%20rather%20than%20Retrieve%20Large%20Language%20Models%20are%20Strong%20Context%20Generators) | ICLR 2023      | [GenRead](https://github.com/wyu97/GenRead)     | [arXiv:2209.10063](https://arxiv.org/abs/2209.10063) |
 | GeneRec | [[#Generative Recommendation Towards Next-generation Recommender Paradigm]]                    | arXiv preprint | [GeneRec](https://github.com/Linxyhaha/GeneRec) | [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) |
 | GENRE   | [[#A First Look at LLM-Powered Generative News Recommendation]]                                | arXiv preprint |                                                 | [arXiv:2305.06566](https://arxiv.org/abs/2305.06566) | 
 
@@ -338,19 +336,16 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 > 具体来说，作者使用了一个叫Contriever的Retriever，而使用的LLM为T5。在训练过程中，作者使用了ADist，EMDR^2，PDist和LOOP四个训练目标对检索器和语言模型进行联合训练。同时，作者也使用了无监督的方式进行联合训练，包括Prefix language modeling，Masked language modeling和Title to section generation。在实验方面，使用了KILT，MMLU和一些其他的问答数据集对Atlas进行了测试，证明了检索增强的有效性。
 
 Re-rank部分是由Retriever完成的，而不是LLM。
-![[Pasted image 20230615180820.png]]
 
+![](Resources/Pasted%20image%2020230615180820.png)
 
 #### Generate rather than Retrieve: Large Language Models are Strong Context Generators
 
-> [!info]
 > ICLR 2023
 > 
 > [arXiv:2209.10063](https://arxiv.org/abs/2209.10063) [cs.CL]
 > 
-> LLM as Content Creator
-> 
-> Note: [[GenRead]]
+> [Content generation](#Content%20generation)
 
 将LLMs输出的结果连同之前的输入，再次作为输入给到LLMs，难绷
 
@@ -366,12 +361,11 @@ Re-rank部分是由Retriever完成的，而不是LLM。
 > [arXiv:2303.14524](https://arxiv.org/abs/2303.14524) [cs.IR]
 > 
 > Retriever + LLMs as Content Refiner + Fine-tuning
-> 
-> Note: [[Chat-REC]]
 
 将传统推荐系统和LLM模型合并使用，主要以工程为主。本质还是候选物的re-rank。
 
-![[Resources/4. Artificial intelligence/3. Applications/Knowledge-intensive tasks/+Papers/Fig 1.png]]
+![](Resources/Fig%201.png)
+
 文章设计了整个用户提问的流程，穿插使用GPT和传统推荐系统。主要思路是将推荐系统的结果让GPT再过滤排序一遍
 
 
@@ -387,7 +381,7 @@ Re-rank部分是由Retriever完成的，而不是LLM。
 
 最简单的似乎不需要训练模型的方法，使用三段式提问让LLMs输出结果
 
-![[NIR.png|800]]
+![](Resources/NIR.png)
 
 > 本文评测了零样本设定下，LLM在下一个物品预测任务下的能力。本文提出了两个挑战：1. 对于LLM来说，推荐的候选空间非常大，2. LLM不清楚用户的历史交互和偏好。为此，本文提出了一种提示策略：“Zero-Shot Next-Item Recommendation (NIR)”， 使得LLM可以处理预测下一个物品的任务。具体来说，本文首先利用外部模块（传统的协同过滤模型）生成候选物品，然后分别提示LLM：1. 提取用户偏好，2. 选择代表性的历史交互物品， 3. 推荐并排序包含十个物品的列表。本文结果表明GPT-3在MovieLens 100K数据集上具有较强的零样本能力，甚至可以优于在该数据集上完整训练的传统推荐模型。
 
@@ -415,7 +409,8 @@ GeneRec模型确实更像是一个内容生成和编辑模型，而不是传统�
 
 GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为来推荐内容，而是直接生成或编辑内容以满足用户的需求。这种方法可以看作是推荐系统的一种扩展或变体，它将推荐系统的范围从简单的内容推荐扩展到了内容生成和编辑。
 
-![[Pasted image 20230618181431.png|500]]
+![500](Resources/Pasted%20image%2020230618181431.png)
+
 
 这篇论文中提到了以下几个任务：
 
@@ -435,7 +430,7 @@ GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为�
 > 
 > [[#Query generation]]
 
-![[Pasted image 20230623175129.png]]
+![](Resources/Pasted%20image%2020230623175129.png)
 
 > 本文认为传统的推荐模型用ID来表征物品，并且使用判别式方法建模，可能会导致以下几个限制：1. 无法利用物品的内容信息和NLP模型的语言建模能力。2. 无法解释用户兴趣来提升推荐的相关性的多样性。3. 无法适配更实际的应用场景，例如不断增加新的商品。
 > 
@@ -453,7 +448,7 @@ GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为�
 
 本文设计的框架：
 
-![[Pasted image 20230602093017.png]]
+![](Resources/Pasted%20image%2020230602093017.png)
 
 这篇文章确实是一篇调研论文，文中提到了5种经典推荐系统任务，包括Rating prediction、Sequential recommendation、Direct recommendation、Explanation Generation和Review summarization，并且分别通过Metrics和真人进行了性能评估。
 
@@ -475,7 +470,9 @@ GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为�
 > Repository: https://github.com/SAI990323/TALLRec
 
 简单来说就是通过两次tuning来优化LLMs模型，使其适应推荐任务，两次优化分别是**instruction tuning**和**rec-tuning**。instruction tuning就是通常所说的instruction tuning，rec-tuning是专门为推荐任务设计的对话方式，有特定的格式。事实证明instruction tuning让模型更会聊天，rec-tuning让模型更会推荐。
-![[Fig. 2.png]]
+
+![](Resources/Fig.%202.png)
+
 感觉这种方法更符合未来的趋势，可惜用梯度下降训练模型本身效率就挺低的，感觉还是要找到更有效地学习模式
 
 #### Web Content Filtering through knowledge distillation of Large Language Models
@@ -538,8 +535,7 @@ LLM预测用户评分
 > 
 > 为了解决这些问题，本文提出GENRE，一个基于LLM的生成式新闻推荐框架。具体来说，GENRE利用可获得的新闻数据，如标题，摘要，和新闻类别，来构建提示，从而激发LLM基于其通用知识来产生相关的信息 ，如新闻摘要，用户画像，个性化新闻等。这些生成的新闻信息将被加入到数据库中，并迭代的优化LLM生成。在此之后，这些生成出来的新的数据将被用来训练新闻推荐模型。
 
-![[Pasted image 20230531163844.png]]
-
+![](Resources/Pasted%20image%2020230531163844.png)
 
 #### How to Index Item IDs for Recommendation Foundation Models
 
@@ -581,7 +577,7 @@ Instruction design，设计了多种prompt来微调模型
 > 
 > Repository: https://github.com/jizhi-zhang/FaiRLLM
 
-![[Pasted image 20230614211026.png]]
+![](Resources/Pasted%20image%2020230614211026.png)
 
 > 本文旨在评测达模型的推荐结果是否公平。实际上，由于在大量的无标注语料上预训练，LLM存在一定的社会偏见，可能导致LLM产生不公平的推荐结果。为此，本文提出了一个新的公平性benchmark："Fairness of Recommendation via LLM (FaiRLLM)."
 > 
@@ -596,7 +592,7 @@ Instruction design，设计了多种prompt来微调模型
 > 
 > [[#Sequential recommendation]] + [[#Ranking]]
 
-![[Pasted image 20230614100006.png]]
+![](Resources/Pasted%20image%2020230614100006.png)
 
 本文评测了LLM在推荐系统中的零样本排序能力。具体来说，本文将推荐问题形式化为给定条件的排序任务，其中用户的历史交互作为条件，召回得到的物品作为候选。本文通过设计合适的prompt模版，结合条件、候选、排序指令，使得LLM可以执行推荐中的排序任务。本文在两个公开数据集上进行了详细的实验，并得到以下发现：
 
@@ -616,15 +612,11 @@ Instruction design，设计了多种prompt来微调模型
 > 
 > Repository: https://github.com/RUCAIBox/iEvaLM-CRS
 
-![[Pasted image 20230614151527.png|600]]
+![400](Resources/Pasted%20image%2020230614151527.png)
 
 > 本文同样尝试利用ChatGPT来构建对话式推荐系统，并为此进行了系统性的评测。本文首先在已有的benchmark数据集上评测了ChatGPT的对话推荐能力。然而，结论是反直觉的：“ChatGPT并没有展示较好的效果”。为此，本文作者检查了ChatGPT失败的案例，并发现失败的原因在于：已有的评测方式依赖于对齐人类手工标注的推荐和对话，并过分强调了基于对话上下文来对ground-truth物品的拟合。因此，传统的评测指标，如BLEU和GOUGE等无法反映LLM在文本生成任务上的真实能力。
 > 
 > 为了解决上述的问题，本文旨在改善评测的方式，使其更加关注于对话推荐系统的交互能力。理想来说，这样的评测应该由人类标注，然而由于高昂的成本，本文尝试使用基于LLM的用户模拟器来测试LLM的对话推荐能力。在这样的评测方式下，ChatGPT取得了出色的表现。特别的，ChatGPT具有突出的解释能力，这是目前的对话推荐系统难以做到的。
-
-
-
-
 
 ## Research direction
 
