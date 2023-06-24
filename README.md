@@ -122,9 +122,8 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 | Name    | Paper                                                                                          | Publication    | Repository                                      | Link                                                 |
 | ------- | ---------------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
 | GenRead | [Generate rather than Retrieve Large Language Models are Strong Context Generators](#Generate%20rather%20than%20Retrieve%20Large%20Language%20Models%20are%20Strong%20Context%20Generators) | ICLR 2023      | [GenRead](https://github.com/wyu97/GenRead)     | [arXiv:2209.10063](https://arxiv.org/abs/2209.10063) |
-| GeneRec | [[#Generative Recommendation Towards Next-generation Recommender Paradigm]]                    | arXiv preprint | [GeneRec](https://github.com/Linxyhaha/GeneRec) | [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) |
+| GeneRec | [Generative Recommendation Towards Next-generation Recommender Paradigm](#Generative%20Recommendation%20Towards%20Next-generation%20Recommender%20Paradigm)                    | arXiv preprint | [GeneRec](https://github.com/Linxyhaha/GeneRec) | [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) |
 | GENRE   | [[#A First Look at LLM-Powered Generative News Recommendation]]                                | arXiv preprint |                                                 | [arXiv:2305.06566](https://arxiv.org/abs/2305.06566) | 
-
 
 
 #### User oriented
@@ -134,9 +133,7 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name | Paper                                                                               | Publication    | Repository | Link                                                 |
 | ---- | ----------------------------------------------------------------------------------- | -------------- | ---------- | ---------------------------------------------------- |
-| GPT4Rec  | [[#GPT4Rec A Generative Framework for Personalized Recommendation and User Interests Interpretation]] | arXiv preprint |            | [arXiv:2304.03879](https://arxiv.org/abs/2304.03879) |
-
-
+| GPT4Rec  | [GPT4Rec A Generative Framework for Personalized Recommendation and User Interests Interpretation](#GPT4Rec%20A%20Generative%20Framework%20for%20Personalized%20Recommendation%20and%20User%20Interests%20Interpretation) | arXiv preprint |            | [arXiv:2304.03879](https://arxiv.org/abs/2304.03879) |
 
 #### Platform oriented
 平台端
@@ -149,7 +146,7 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name    | Paper                                                    | Publication    | Repository                                                          | Link                                                 |
 | ------- | -------------------------------------------------------- | -------------- | ------------------------------------------------------------------- | ---------------------------------------------------- |
-| [[DSI]] | [[#Transformer Memory as a Differentiable Search Index]] | NeurIPS 2022   | [DSI-transformers](https://github.com/ArvinZhuang/DSI-transformers) | [arXiv:2202.06991](https://arxiv.org/abs/2202.06991) |
+| DSI | [[#Transformer Memory as a Differentiable Search Index]] | NeurIPS 2022   | [DSI-transformers](https://github.com/ArvinZhuang/DSI-transformers) | [arXiv:2202.06991](https://arxiv.org/abs/2202.06991) |
 |         | [[#Is ChatGPT a Good Recommender? A Preliminary Study]]  | arXiv preprint |                                                                     | [arXiv:2304.10149](https://arxiv.org/abs/2304.10149) |
 
 
@@ -160,8 +157,8 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 | ----------- | ---------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------- | ---------------------------------------------------- |
 | NIR         | [[#Zero-Shot Next-Item Recommendation using Large Pretrained Language Models]]                             | arXiv preprint | [LLM-Next-Item-Rec](https://github.com/AGI-Edgerunners/LLM-Next-Item-Rec) | [arXiv:2304.03153](https://arxiv.org/abs/2304.03153) |
 |             | [[#Is ChatGPT a Good Recommender? A Preliminary Study]]                                                    | arXiv preprint |                                                                           | [arXiv:2304.10149](https://arxiv.org/abs/2304.10149) |
-| [[TALLRec]] | [[#TALLRec An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation]] | arXiv preprint | [TALLRec](https://github.com/SAI990323/TALLRec)                           | [arXiv:2305.00447](https://arxiv.org/abs/2305.00447) |
-| [[TIGER]]   | [[#Recommender Systems with Generative Retrieval]]                                                         | arXiv preprint |                                                                           | [arXiv:2305.05065](https://arxiv.org/abs/2305.05065) |
+| TALLRec | [[#TALLRec An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation]] | arXiv preprint | [TALLRec](https://github.com/SAI990323/TALLRec)                           | [arXiv:2305.00447](https://arxiv.org/abs/2305.00447) |
+| TIGER   | [[#Recommender Systems with Generative Retrieval]]                                                         | arXiv preprint |                                                                           | [arXiv:2305.05065](https://arxiv.org/abs/2305.05065) |
 |             | [[#How to Index Item IDs for Recommendation Foundation Models]]                                            | arXiv preprint |                                                                           | [arXiv:2305.06569](https://arxiv.org/abs/2305.06569) |
 |             | [[#Recommendation as Instruction Following A Large Language Model Empowered Recommendation Approach]]      | arXiv preprint |                                                                           | [arXiv:2305.07001](https://arxiv.org/abs/2305.07001) |
 |             | [[#Large Language Models are Zero-Shot Rankers for Recommender Systems]]                                   | arXiv preprint | [LLMRank](https://github.com/RUCAIBox/LLMRank)                            | [arXiv:2305.08845](https://arxiv.org/abs/2305.08845) | 
@@ -183,8 +180,8 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name | Paper                                                                               | Publication    | Repository | Link                                                 |
 | ---- | ----------------------------------------------------------------------------------- | -------------- | ---------- | ---------------------------------------------------- |
-| [[Chat-REC]]  | [[#Chat-REC Towards Interactive and Explainable LLMs-Augmented Recommender System]] | arXiv preprint |            | [arXiv:2303.14524](https://arxiv.org/abs/2303.14524) |
-|             | [[#Large Language Models are Zero-Shot Rankers for Recommender Systems]]                                   | arXiv preprint | [LLMRank](https://github.com/RUCAIBox/LLMRank)                            | [arXiv:2305.08845](https://arxiv.org/abs/2305.08845) | 
+| Chat-REC  | [Chat-REC Towards Interactive and Explainable LLMs-Augmented Recommender System](#Chat-REC%20Towards%20Interactive%20and%20Explainable%20LLMs-Augmented%20Recommender%20System) | arXiv preprint |            | [arXiv:2303.14524](https://arxiv.org/abs/2303.14524) |
+	|             | [Large Language Models are Zero-Shot Rankers for Recommender Systems](#Large%20Language%20Models%20are%20Zero-Shot%20Rankers%20for%20Recommender%20Systems)                                   | arXiv preprint | [LLMRank](https://github.com/RUCAIBox/LLMRank)                            | [arXiv:2305.08845](https://arxiv.org/abs/2305.08845) | 
 
 
 
@@ -203,8 +200,8 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name      | Paper                                                           | Publication    | Repository                                                          | Link                                                 |
 | --------- | --------------------------------------------------------------- | -------------- | ------------------------------------------------------------------- | ---------------------------------------------------- |
-| [[DSI]]   | [[#Transformer Memory as a Differentiable Search Index]]        | NeurIPS 2022   | [DSI-transformers](https://github.com/ArvinZhuang/DSI-transformers) | [arXiv:2202.06991](https://arxiv.org/abs/2202.06991) |
-| [[TIGER]] | [[#Recommender Systems with Generative Retrieval]]              | arXiv preprint |                                                                     | [arXiv:2305.05065](https://arxiv.org/abs/2305.05065) |
+| DSI   | [[#Transformer Memory as a Differentiable Search Index]]        | NeurIPS 2022   | [DSI-transformers](https://github.com/ArvinZhuang/DSI-transformers) | [arXiv:2202.06991](https://arxiv.org/abs/2202.06991) |
+| TIGER | [[#Recommender Systems with Generative Retrieval]]              | arXiv preprint |                                                                     | [arXiv:2305.05065](https://arxiv.org/abs/2305.05065) |
 |           | [[#How to Index Item IDs for Recommendation Foundation Models]] | arXiv preprint |                                                                     | [arXiv:2305.06569](https://arxiv.org/abs/2305.06569) |
 
 
@@ -228,7 +225,7 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name        | Paper                                                                                                      | Publication    | Repository                                      | Link                                                 |
 | ----------- | ---------------------------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| [[TALLRec]] | [[#TALLRec An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation]] | arXiv preprint | [TALLRec](https://github.com/SAI990323/TALLRec) | [arXiv:2305.00447](https://arxiv.org/abs/2305.00447) |
+| TALLRec | [[#TALLRec An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation]] | arXiv preprint | [TALLRec](https://github.com/SAI990323/TALLRec) | [arXiv:2305.00447](https://arxiv.org/abs/2305.00447) |
 |      | [[#Web Content Filtering through knowledge distillation of Large Language Models]] | arXiv preprint |            | [arXiv:2305.05027](https://arxiv.org/abs/2305.05027) |
 |             | [[#Recommendation as Instruction Following A Large Language Model Empowered Recommendation Approach]]      | arXiv preprint |                                                                           | [arXiv:2305.07001](https://arxiv.org/abs/2305.07001) | 
 
@@ -246,13 +243,13 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name   | Paper                                                                                                | Publication    | Repository                                           | Link                                                 |
 | ------ | ---------------------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------- | ---------------------------------------------------- |
-| iEvaLM | [[#Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models]] | arXiv preprint | [iEvaLM-CRS](https://github.com/RUCAIBox/iEvaLM-CRS) | [arXiv:2305.13112](https://arxiv.org/abs/2305.13112) | 
+| iEvaLM | [Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models](#Rethinking%20the%20Evaluation%20for%20Conversational%20Recommendation%20in%20the%20Era%20of%20Large%20Language%20Models) | arXiv preprint | [iEvaLM-CRS](https://github.com/RUCAIBox/iEvaLM-CRS) | [arXiv:2305.13112](https://arxiv.org/abs/2305.13112) | 
 
 #### Fairness
 
 | Name    | Paper                                                                                               | Publication    | Repository                                        | Link                                                 |
 | ------- | --------------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------- | ---------------------------------------------------- |
-| FaiRLLM | [[#Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation]] | arXiv preprint | [FaiRLLM](https://github.com/jizhi-zhang/FaiRLLM) | [arXiv:2305.07609](https://arxiv.org/abs/2305.07609) | 
+| FaiRLLM | [Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation](#Is%20ChatGPT%20Fair%20for%20Recommendation?%20Evaluating%20Fairness%20in%20Large%20Language%20Model%20Recommendation) | arXiv preprint | [FaiRLLM](https://github.com/jizhi-zhang/FaiRLLM) | [arXiv:2305.07609](https://arxiv.org/abs/2305.07609) | 
 
 #### Privacy
 
@@ -263,9 +260,7 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name    | Paper                                                                                          | Publication    | Repository                                      | Link                                                 |
 | ------- | ---------------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| GeneRec | [[#Generative Recommendation Towards Next-generation Recommender Paradigm]]                    | arXiv preprint | [GeneRec](https://github.com/Linxyhaha/GeneRec) | [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) |
-
-
+| GeneRec | [Generative Recommendation Towards Next-generation Recommender Paradigm](#Generative%20Recommendation%20Towards%20Next-generation%20Recommender%20Paradigm)                    | arXiv preprint | [GeneRec](https://github.com/Linxyhaha/GeneRec) | [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) |
 
 
 ### Other directions
@@ -274,37 +269,34 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name    | Paper                                                                       | Publication    | Repository                                      | Link                                                 |
 | ------- | --------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| Atlas   | [[#Atlas Few-shot Learning with Retrieval Augmented Language Models]]       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
+| Atlas   | [Atlas Few-shot Learning with Retrieval Augmented Language Models](#Atlas%20Few-shot%20Learning%20with%20Retrieval%20Augmented%20Language%20Models)       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
 | GeneRec | [[#Generative Recommendation Towards Next-generation Recommender Paradigm]] | arXiv preprint | [GeneRec](https://github.com/Linxyhaha/GeneRec) | [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) |
-
-
 
 
 #### Fact checking *
 
 | Name    | Paper                                                                       | Publication    | Repository                                      | Link                                                 |
 | ------- | --------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| Atlas   | [[#Atlas Few-shot Learning with Retrieval Augmented Language Models]]       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
+| Atlas   | [Atlas Few-shot Learning with Retrieval Augmented Language Models](#Atlas%20Few-shot%20Learning%20with%20Retrieval%20Augmented%20Language%20Models)       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
 
 
 #### Dialog generation
 
 | Name    | Paper                                                                       | Publication    | Repository                                      | Link                                                 |
 | ------- | --------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| Atlas   | [[#Atlas Few-shot Learning with Retrieval Augmented Language Models]]       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
+| Atlas   | [Atlas Few-shot Learning with Retrieval Augmented Language Models](#Atlas%20Few-shot%20Learning%20with%20Retrieval%20Augmented%20Language%20Models)       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
 
 #### Slot-filling
 
 | Name    | Paper                                                                       | Publication    | Repository                                      | Link                                                 |
 | ------- | --------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| Atlas   | [[#Atlas Few-shot Learning with Retrieval Augmented Language Models]]       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
+| Atlas   | [Atlas Few-shot Learning with Retrieval Augmented Language Models](#Atlas%20Few-shot%20Learning%20with%20Retrieval%20Augmented%20Language%20Models)       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
 
 #### Entity linking
 
 | Name    | Paper                                                                       | Publication    | Repository                                      | Link                                                 |
 | ------- | --------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
-| Atlas   | [[#Atlas Few-shot Learning with Retrieval Augmented Language Models]]       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
-
+| Atlas   | [Atlas Few-shot Learning with Retrieval Augmented Language Models](#Atlas%20Few-shot%20Learning%20with%20Retrieval%20Augmented%20Language%20Models)       | arXiv preprint |                                                 | [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) |
 
 ### List
 
@@ -323,8 +315,6 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 #### Atlas: Few-shot Learning with Retrieval Augmented Language Models
 
-> [!info]
-> 
 > [arXiv:2208.03299](https://arxiv.org/abs/2208.03299) [cs.CL]
 > 
 > Retriever + LLMs as Content Refiner + Fine-tuning
@@ -356,11 +346,9 @@ Re-rank部分是由Retriever完成的，而不是LLM。
 
 #### Chat-REC: Towards Interactive and Explainable LLMs-Augmented Recommender System
 
-> [!info]
-> 
 > [arXiv:2303.14524](https://arxiv.org/abs/2303.14524) [cs.IR]
 > 
-> Retriever + LLMs as Content Refiner + Fine-tuning
+> Retriever + [Ranking](#Ranking) + Fine-tuning
 
 将传统推荐系统和LLM模型合并使用，主要以工程为主。本质还是候选物的re-rank。
 
@@ -371,11 +359,9 @@ Re-rank部分是由Retriever完成的，而不是LLM。
 
 #### Zero-Shot Next-Item Recommendation using Large Pretrained Language Models
 
-> [!info]
-> 
 > [arXiv:2304.03153](https://arxiv.org/abs/2304.03153) [cs.IR]
 > 
-> Traditional retriever + LLM Ranking + Sequential Recommendation
+> Traditional retriever + LLM Ranking + [Sequential recommendation](#Sequential%20recommendation)
 > 
 > Repository: https://github.com/AGI-Edgerunners/LLM-Next-Item-Rec
 
@@ -389,11 +375,9 @@ Re-rank部分是由Retriever完成的，而不是LLM。
 
 #### Generative Recommendation: Towards Next-generation Recommender Paradigm
 
-> [!info]
-> 
 > [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) [cs.IR]
 > 
-> LLM using tools + AI Content Creator
+> LLM using tools + [Content generation](#Content%20generation)
 > 
 > Repository: https://github.com/Linxyhaha/GeneRec
 
@@ -424,11 +408,9 @@ GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为�
 
 #### GPT4Rec: A Generative Framework for Personalized Recommendation and User Interests Interpretation
 
-> [!info]
-> 
 > [arXiv:2304.03879](https://arxiv.org/abs/2304.03879) [cs.IR]
 > 
-> [[#Query generation]]
+> [Query generation](#Query%20generation)
 
 ![](Resources/Pasted%20image%2020230623175129.png)
 
@@ -440,9 +422,9 @@ GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为�
 
 #### Is ChatGPT a Good Recommender? A Preliminary Study
 
-> [!info]
-> 
 > [arXiv:2304.10149](https://arxiv.org/abs/2304.10149) [cs.IR]
+> 
+> [Sequential recommendation](#Sequential%20recommendation)
 
 最近一段时间，也有不少关于推荐系统的预训练语言模型出现，譬如 P5 以及 M6-Rec。
 
@@ -463,7 +445,7 @@ GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为�
 > 
 > [arXiv:2305.00447](https://arxiv.org/abs/2305.00447) [cs.IR]
 > 
-> [[#Sequential recommendation]] + [[#Tuning]] (Instruction tuning + Rec-tuning)
+> [Sequential recommendation](#Sequential%20recommendation) + [[#Tuning]] (Instruction tuning + Rec-tuning)
 > 
 > Note: [[TALLRec]]
 > 
@@ -492,11 +474,9 @@ URL分类任务，感觉不是推荐任务
 
 #### Recommender Systems with Generative Retrieval
 
-> [!info]
-> 
 > [arXiv:2305.05065](https://arxiv.org/abs/2305.05065) [cs.IR]
 > 
-> [[#Sequential recommendation]] + [[#ID generation]]
+> [Sequential recommendation](#Sequential%20recommendation) + [[#ID generation]]
 > 
 > Note: [[TIGER]]
 
@@ -523,11 +503,9 @@ LLM预测用户评分
 
 #### A First Look at LLM-Powered Generative News Recommendation
 
-> [!info]
-> 
 > [arXiv:2305.06566](https://arxiv.org/abs/2305.06566) [cs.IR]
 > 
-> [[#Content generation]]
+> [Content generation](#Content%20generation)
 
 > 设计了一种LLM for Rec框架，用LLM作为信息提取模型，间接用于推荐任务
 > 
@@ -539,11 +517,9 @@ LLM预测用户评分
 
 #### How to Index Item IDs for Recommendation Foundation Models
 
-> [!info]
-> 
 > [arXiv:2305.06569](https://arxiv.org/abs/2305.06569) [cs.IR]
 > 
-> [[#ID generation]] + [[#Sequential recommendation]]
+> [[#ID generation]] + [Sequential recommendation](#Sequential%20recommendation)
 
 设计索引的ID，实验分析了3种传统索引方式和4种常用索引方式，同时还有几种方法的混合。
 
@@ -558,7 +534,7 @@ LLM预测用户评分
 > 
 > [arXiv:2305.07001](https://arxiv.org/abs/2305.07001) [cs.IR]
 > 
-> Instruction [[#Tuning]] + [[#Sequential recommendation]] + [[#Proactively recommendation]]
+> Instruction [[#Tuning]] + [Sequential recommendation](#Sequential%20recommendation) + [[#Proactively recommendation]]
 > 
 > Note: [「人大，腾讯」InstructRec | 按指令推荐：基于LLM的推荐方法](https://mp.weixin.qq.com/s/uSqSsMsoXVi_ACyi5LX8eA)
 
@@ -569,11 +545,9 @@ Instruction design，设计了多种prompt来微调模型
 
 #### Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation
 
-> [!info]
-> 
 > [arXiv:2305.07609](https://arxiv.org/abs/2305.07609) [cs.IR]
 > 
-> [[#Fairness]]
+> [Fairness](#Fairness)
 > 
 > Repository: https://github.com/jizhi-zhang/FaiRLLM
 
@@ -586,11 +560,9 @@ Instruction design，设计了多种prompt来微调模型
 
 #### Large Language Models are Zero-Shot Rankers for Recommender Systems
 
-> [!info]
-> 
 > [arXiv:2305.08845](https://arxiv.org/abs/2305.08845) [cs.IR]
 > 
-> [[#Sequential recommendation]] + [[#Ranking]]
+> [Sequential recommendation](#Sequential%20recommendation) + [[#Ranking]]
 
 ![](Resources/Pasted%20image%2020230614100006.png)
 
@@ -604,11 +576,9 @@ Instruction design，设计了多种prompt来微调模型
 
 #### Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models
 
-> [!info]
-> 
 > [arXiv:2305.13112](https://arxiv.org/abs/2305.13112) [cs.CL]
 > 
-> [[#Performance]]
+> [Performance](#Performance)
 > 
 > Repository: https://github.com/RUCAIBox/iEvaLM-CRS
 
@@ -620,7 +590,7 @@ Instruction design，设计了多种prompt来微调模型
 
 ## Research direction
 
-[[Uncovering ChatGPT's Capabilities in Recommender Systems]]分析认为LLMs适合做[[Recommender system#^8ee569|冷启动]]，但是没有微调的LLMs还是比不过传统推荐模型。
+[Uncovering ChatGPT's Capabilities in Recommender Systems](https://arxiv.org/abs/2305.02182)分析认为LLMs适合做**冷启动**，但是没有微调的LLMs还是比不过传统推荐模型。
 
 - Language bias and fact-consistency in language generation tasks of recommendation.
 - Knowledge transmission and injection for downstream recommendations.
