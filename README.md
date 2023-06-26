@@ -1,5 +1,5 @@
 # LLM4Rec
-Paper List of Recommender Systems with Large Language Models by Cityu AML Lab
+Paper List of Recommender Systems with Large Language Models
 
 ## Related Repositories
 
@@ -155,13 +155,13 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 | Name        | Paper                                                                                                      | Publication    | Repository                                                                | Link                                                 |
 | ----------- | ---------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------- | ---------------------------------------------------- |
-| NIR         | [[#Zero-Shot Next-Item Recommendation using Large Pretrained Language Models]]                             | arXiv preprint | [LLM-Next-Item-Rec](https://github.com/AGI-Edgerunners/LLM-Next-Item-Rec) | [arXiv:2304.03153](https://arxiv.org/abs/2304.03153) |
-|             | [[#Is ChatGPT a Good Recommender? A Preliminary Study]]                                                    | arXiv preprint |                                                                           | [arXiv:2304.10149](https://arxiv.org/abs/2304.10149) |
-| TALLRec | [[#TALLRec An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation]] | arXiv preprint | [TALLRec](https://github.com/SAI990323/TALLRec)                           | [arXiv:2305.00447](https://arxiv.org/abs/2305.00447) |
-| TIGER   | [[#Recommender Systems with Generative Retrieval]]                                                         | arXiv preprint |                                                                           | [arXiv:2305.05065](https://arxiv.org/abs/2305.05065) |
-|             | [[#How to Index Item IDs for Recommendation Foundation Models]]                                            | arXiv preprint |                                                                           | [arXiv:2305.06569](https://arxiv.org/abs/2305.06569) |
-|             | [[#Recommendation as Instruction Following A Large Language Model Empowered Recommendation Approach]]      | arXiv preprint |                                                                           | [arXiv:2305.07001](https://arxiv.org/abs/2305.07001) |
-|             | [[#Large Language Models are Zero-Shot Rankers for Recommender Systems]]                                   | arXiv preprint | [LLMRank](https://github.com/RUCAIBox/LLMRank)                            | [arXiv:2305.08845](https://arxiv.org/abs/2305.08845) | 
+| NIR         | Zero-Shot Next-Item Recommendation using Large Pretrained Language Models                             | arXiv preprint | [LLM-Next-Item-Rec](https://github.com/AGI-Edgerunners/LLM-Next-Item-Rec) | [arXiv:2304.03153](https://arxiv.org/abs/2304.03153) |
+|             | Is ChatGPT a Good Recommender? A Preliminary Study                                                    | arXiv preprint |                                                                           | [arXiv:2304.10149](https://arxiv.org/abs/2304.10149) |
+| TALLRec | TALLRec An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation | arXiv preprint | [TALLRec](https://github.com/SAI990323/TALLRec)                           | [arXiv:2305.00447](https://arxiv.org/abs/2305.00447) |
+| TIGER   | Recommender Systems with Generative Retrieval                                                         | arXiv preprint |                                                                           | [arXiv:2305.05065](https://arxiv.org/abs/2305.05065) |
+|             | How to Index Item IDs for Recommendation Foundation Models                                            | arXiv preprint |                                                                           | [arXiv:2305.06569](https://arxiv.org/abs/2305.06569) |
+|             | Recommendation as Instruction Following A Large Language Model Empowered Recommendation Approach      | arXiv preprint |                                                                           | [arXiv:2305.07001](https://arxiv.org/abs/2305.07001) |
+|             | Large Language Models are Zero-Shot Rankers for Recommender Systems                                   | arXiv preprint | [LLMRank](https://github.com/RUCAIBox/LLMRank)                            | [arXiv:2305.08845](https://arxiv.org/abs/2305.08845) | 
 
 
 ##### Recommendation classified by query
