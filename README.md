@@ -123,7 +123,7 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 | ------- | ---------------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------- | ---------------------------------------------------- |
 | GenRead | [Generate rather than Retrieve Large Language Models are Strong Context Generators](#Generate%20rather%20than%20Retrieve%20Large%20Language%20Models%20are%20Strong%20Context%20Generators) | ICLR 2023      | [GenRead](https://github.com/wyu97/GenRead)     | [arXiv:2209.10063](https://arxiv.org/abs/2209.10063) |
 | GeneRec | [Generative Recommendation Towards Next-generation Recommender Paradigm](#Generative%20Recommendation%20Towards%20Next-generation%20Recommender%20Paradigm)                    | arXiv preprint | [GeneRec](https://github.com/Linxyhaha/GeneRec) | [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) |
-| GENRE   | [[#A First Look at LLM-Powered Generative News Recommendation]]                                | arXiv preprint |                                                 | [arXiv:2305.06566](https://arxiv.org/abs/2305.06566) | 
+| GENRE   | [A First Look at LLM-Powered Generative News Recommendation](#A%20First%20Look%20at%20LLM-Powered%20Generative%20News%20Recommendation)                                | arXiv preprint |                                                 | [arXiv:2305.06566](https://arxiv.org/abs/2305.06566) | 
 
 
 #### User oriented
@@ -174,6 +174,10 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 
 ###### Passively recommendation
 
+| Name | Paper                                                           | Publication    | Repository | Link                                                 |
+| ---- | --------------------------------------------------------------- | -------------- | ---------- | ---------------------------------------------------- |
+|      | [[#CTRL Connect Tabular and Language Model for CTR Prediction]] | arXiv preprint |            | [arXiv:2306.02841](https://arxiv.org/abs/2306.02841) | 
+
 
 ##### Ranking
 
@@ -193,7 +197,11 @@ Ideally, given user $u_i$, the platform will get his background $b_i$ and browsi
 |      | [[#Do LLMs Understand User Preferences? Evaluating LLMs On User Rating Prediction]] | arXiv preprint |            | [arXiv:2305.06474](https://arxiv.org/abs/2305.06474) |
 
 
-##### Representation
+##### Click-through rate (CTR) prediction
+
+| Name | Paper                                                           | Publication    | Repository | Link                                                 |
+| ---- | --------------------------------------------------------------- | -------------- | ---------- | ---------------------------------------------------- |
+|      | [[#CTRL Connect Tabular and Language Model for CTR Prediction]] | arXiv preprint |            | [arXiv:2306.02841](https://arxiv.org/abs/2306.02841) | 
 
 
 ##### ID generation
@@ -587,6 +595,20 @@ Instruction design，设计了多种prompt来微调模型
 > 本文同样尝试利用ChatGPT来构建对话式推荐系统，并为此进行了系统性的评测。本文首先在已有的benchmark数据集上评测了ChatGPT的对话推荐能力。然而，结论是反直觉的：“ChatGPT并没有展示较好的效果”。为此，本文作者检查了ChatGPT失败的案例，并发现失败的原因在于：已有的评测方式依赖于对齐人类手工标注的推荐和对话，并过分强调了基于对话上下文来对ground-truth物品的拟合。因此，传统的评测指标，如BLEU和GOUGE等无法反映LLM在文本生成任务上的真实能力。
 > 
 > 为了解决上述的问题，本文旨在改善评测的方式，使其更加关注于对话推荐系统的交互能力。理想来说，这样的评测应该由人类标注，然而由于高昂的成本，本文尝试使用基于LLM的用户模拟器来测试LLM的对话推荐能力。在这样的评测方式下，ChatGPT取得了出色的表现。特别的，ChatGPT具有突出的解释能力，这是目前的对话推荐系统难以做到的。
+
+#### CTRL: Connect Tabular and Language Model for CTR Prediction
+
+> [!info]
+> 
+> [arXiv:2306.02841](https://arxiv.org/abs/2306.02841) [cs.IR]
+> 
+> [[#Click-through rate (CTR) prediction|CTR prediction]] + [[#Passively recommendation]]
+
+本文使用语言模型进行跨模态对齐，将表格和文本进行对齐，通过对比学习训练得到Collaborative Model，之后再进行单独微调。
+
+![](Resources/Pasted%20image%2020230625182143.png)
+
+
 
 ## Research direction
 
