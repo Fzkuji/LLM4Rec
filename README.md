@@ -418,7 +418,7 @@ Re-rank部分是由Retriever完成的，而不是LLM。
 > 
 > [arXiv:2209.10063](https://arxiv.org/abs/2209.10063) [cs.CL]
 > 
-> [Content generation](#Content%20generation)
+> [Content generation](#content-generation)
 
 将LLMs输出的结果连同之前的输入，再次作为输入给到LLMs，难绷
 
@@ -444,7 +444,7 @@ Re-rank部分是由Retriever完成的，而不是LLM。
 
 > [arXiv:2304.03153](https://arxiv.org/abs/2304.03153) [cs.IR]
 > 
-> Traditional retriever + LLM Ranking + [Sequential recommendation](#Sequential%20recommendation)
+> Traditional retriever + LLM Ranking + [Sequential recommendation](#sequential-recommendation)
 > 
 > Repository: https://github.com/AGI-Edgerunners/LLM-Next-Item-Rec
 
@@ -460,7 +460,7 @@ Re-rank部分是由Retriever完成的，而不是LLM。
 
 > [arXiv:2304.03516](https://arxiv.org/abs/2304.03516) [cs.IR]
 > 
-> LLM using tools + [Content generation](#Content%20generation)
+> [LLM using tools](#llm-using-tools) + [Content generation](#content-generation)
 > 
 > Repository: https://github.com/Linxyhaha/GeneRec
 
@@ -507,7 +507,7 @@ GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为�
 
 > [arXiv:2304.10149](https://arxiv.org/abs/2304.10149) [cs.IR]
 > 
-> [Sequential recommendation](#Sequential%20recommendation)
+> [Sequential recommendation](#sequential-recommendation)
 
 最近一段时间，也有不少关于推荐系统的预训练语言模型出现，譬如 P5 以及 M6-Rec。
 
@@ -528,7 +528,7 @@ GeneRec模型的独特之处在于，它不仅仅是根据用户的历史行为�
 > 
 > [arXiv:2305.00447](https://arxiv.org/abs/2305.00447) [cs.IR]
 > 
-> [Sequential recommendation](#Sequential%20recommendation) + [[#Tuning]] (Instruction tuning + Rec-tuning)
+> [Sequential recommendation](#sequential-recommendation) + [[#Tuning]] (Instruction tuning + Rec-tuning)
 > 
 > Note: [[TALLRec]]
 > 
@@ -559,7 +559,7 @@ URL分类任务，感觉不是推荐任务
 
 > [arXiv:2305.05065](https://arxiv.org/abs/2305.05065) [cs.IR]
 > 
-> [Sequential recommendation](#Sequential%20recommendation) + [[#ID generation]]
+> [Sequential recommendation](#sequential-recommendation) + [ID generation](#id-generation)
 > 
 > Note: [[TIGER]]
 
@@ -588,7 +588,7 @@ LLM预测用户评分
 
 > [arXiv:2305.06566](https://arxiv.org/abs/2305.06566) [cs.IR]
 > 
-> [Content generation](#Content%20generation)
+> [Content generation](#content-generation)
 
 > 设计了一种LLM for Rec框架，用LLM作为信息提取模型，间接用于推荐任务
 > 
@@ -602,7 +602,7 @@ LLM预测用户评分
 
 > [arXiv:2305.06569](https://arxiv.org/abs/2305.06569) [cs.IR]
 > 
-> [[#ID generation]] + [Sequential recommendation](#Sequential%20recommendation)
+> [ID generation](#id-generation) + [Sequential recommendation](#sequential-recommendation)
 
 设计索引的ID，实验分析了3种传统索引方式和4种常用索引方式，同时还有几种方法的混合。
 
@@ -617,7 +617,7 @@ LLM预测用户评分
 > 
 > [arXiv:2305.07001](https://arxiv.org/abs/2305.07001) [cs.IR]
 > 
-> Instruction [[#Tuning]] + [Sequential recommendation](#Sequential%20recommendation) + [[#Proactively recommendation]]
+> Instruction [[#Tuning]] + [Sequential recommendation](#sequential-recommendation) + [[#Proactively recommendation]]
 > 
 > Note: [「人大，腾讯」InstructRec | 按指令推荐：基于LLM的推荐方法](https://mp.weixin.qq.com/s/uSqSsMsoXVi_ACyi5LX8eA)
 
@@ -645,7 +645,7 @@ Instruction design，设计了多种prompt来微调模型
 
 > [arXiv:2305.08845](https://arxiv.org/abs/2305.08845) [cs.IR]
 > 
-> [Sequential recommendation](#Sequential%20recommendation) + [[#Ranking]]
+> [Sequential recommendation](#sequential-recommendation) + [[#Ranking]]
 
 ![](Resources/Pasted%20image%2020230614100006.png)
 
